@@ -1,0 +1,40 @@
+ use customer_gis 
+update  [dbo].[Customer_file] set [Ref_Customer_id] = NULL where [Ref_Customer_id]='NULL'
+---(1142 rows affected)
+
+  insert into [dbo].[Customer](
+		[Customer_id]
+      ,[Full_name]
+      ,[Customer_type]
+      ,[Is_client_flg]
+      ,[Is_referal]
+      ,[Ref_Customer_id]
+      ,[Country]
+      ,[Region]
+      ,[City]
+      ,[Street]
+      ,[Street_nr]
+      ,[Activation_date]
+      ,[Contact_phone]
+      ,[Contact_email]
+      ,[Acc_mgr_id]
+      ,[Acc_mgr_name]
+	  )
+
+    SELECT [Customer_id]
+      ,[Full_name]
+      ,[Customer_type]
+      ,[Is_client_flg]
+      ,[Is_referal]
+      ,[Ref_Customer_id]
+      ,[Country]
+      ,[Region]
+      ,[City]
+      ,[Street]
+      ,[Street_nr]
+      ,[Activation_date]
+      ,[Contact_phone]
+      ,[Contact_email]
+      ,[Acc_mgr_id]
+      ,[Acc_mgr_name]
+  FROM [dbo].[Customer_file]

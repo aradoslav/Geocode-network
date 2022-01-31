@@ -1,0 +1,2 @@
+Customer_id,Full_name,Customer_type,Is_client_flg,Is_referal,Ref_Customer_id,Country,Region,City,Street,Street_nr,Activation_date,Contact_phone,Contact_email,Acc_mgr_id,Acc_mgr_name
+4474,John Doe,Person,1,1,7391,Country_name,Region name,City name,Street name,1,31/12/22 00:00,123-456-213,placeholder,1,Lancelot
