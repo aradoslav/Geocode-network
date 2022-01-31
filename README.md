@@ -1,4 +1,4 @@
-# Geocode networrk
+# Geocode network
  Framework for geocoding a network of customers
 
 1.Requirements:
