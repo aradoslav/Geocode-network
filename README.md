@@ -2,11 +2,17 @@
  Framework for geocoding a network of customers
 
 1.Requirements:
+
 Jupyter notebook
+
 Anaconda
+
 Python + pip install all packages used in geocoder
+
 MSSQL server
+
 Kepler.gl
+
 
 2.Input files are in the Input folder:
 Customer
