@@ -18,7 +18,7 @@ Kepler.gl
 Customer
 Region Indicators
 
-3. Please import the first in a database in 2 separate tables:
+3.Please import the first in a database in 2 separate tables:
 [dbo].[Customer]
 [dbo].[Region_indicators]
 
