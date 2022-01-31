@@ -17,7 +17,7 @@ Framework for geocoding a network of customers
 
 ## Database setup
 
-Please import the first in a database in 2 separate tables:
+Please import the first Input CSV files in a database in 2 separate tables:
  * [dbo].[Customer]
  * [dbo].[Region_indicators]
 
